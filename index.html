@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saylani Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form>
+        <center>
+            <img src="Images/saylani-welfare.jpg"
+                alt="Saylani logo">
+        </center>
+        <h1>
+            <center>
+                <u>
+                    STUDENT REGISTRATION FORM
+                </u>
+            </center>
+        </h1>
+        <fieldset>
+            <table>
+                <tr>
+                    <td id="format">
+                        <label for="fn">
+                            FIRST NAME
+                        </label>
+                    </td>
+                    <td>
+                        <input class="textbox" id="fn" type="text" name="fname" size="20" maxlength="30"
+                            placeholder=" Enter first name">
+                        (max 30 characters a-z and A-Z)
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="ln">
+                            LAST NAME
+                        </label>
+                    </td>
+                    <td>
+                        <input class="textbox" id="ln" type="text" name="lname" size="20" maxlength="30"
+                            placeholder=" Enter last name" />
+                        (max 30 characters a-z and A-Z)
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="dob">
+                            DATE OF BIRTH
+                        </label>
+                    </td>
+                    <td>
+                        <input class="textbox" id="dob" type="date" name="DOB" size="20"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Em">
+                            EMAIL ID
+                        </label>
+                    </td>
+                    <td>
+                        <input class="textbox" id="Em" type="email" name="Email" size="20"
+                            placeholder=" Enter email address" maxlength="50" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Mn">
+                            MOBILE NUMBER
+                        </label>
+                    </td>
+                    <td>
+                        <input class="textbox" id="Mn" type="number" name="Mobile#" placeholder=" Enter mobile number"
+                            maxlength="11" />
+                        (11 digit number)
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        GENDER
+                    </td>
+                    <td>
+                        <input type="radio" name="gender" id="m" value="male">
+                        <label for="m">
+                            Male
+                        </label>
+                        <input type="radio" name="gender" id="f" value="female">
+                        <label for="f">
+                            Female
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="same">
+                        <label for="add">
+                            ADDRESS
+                        </label>
+                    </td>
+                    <td>
+                        <textarea name="address" id="add"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="city">
+                            CITY
+                        </label>
+                    </td>
+                    <td>
+                        <input id="city" type="text" class="textbox" name="cityname" size="20" maxlength="30"
+                            placeholder=" Enter city name">
+                        (max 30 characters a-z and A-Z)
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="pin">
+                            PINCODE
+                        </label>
+                    </td>
+                    <td>
+                        <input type="number" class="textbox" id="pin" name="pincode" size="20" maxlength="6"
+                            placeholder=" Enter pincode">
+                        (6 digit number)
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="st">
+                            STATE
+                        </label>
+                    </td>
+                    <td>
+                        <input type="text" name="state" id="st" class="textbox" size="20" maxlength="30"
+                            placeholder=" Enter state">
+                        (max 30 characters a-z and A-Z)
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="cnt">
+                            COUNTRY
+                        </label>
+                    </td>
+                    <td>
+                        <input type="text" class="textbox" id="cnt" name="country" size="20" maxlength="30"
+                            placeholder=" Enter country">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        HOBBIES
+                    </td>
+                    <td>
+                        <input type="checkbox" name="hob" value="dr" id="dr">
+                        <label for="dr">
+                            Drawing
+                        </label>
+                        <input type="checkbox" name="hob" value="sin" id="sin">
+                        <label for="sin">
+                            Singing
+                        </label>
+                        <input type="checkbox" name="hob" value="dan" id="dan">
+                        <label for="dan">
+                            Dancing
+                        </label>
+                        <input type="checkbox" name="hob" value="skt" id="skt">
+                        <label for="skt">
+                            Sketching
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="checkbox" name="hob" value="oth" id="oth">
+                        <label for="oth">
+                            Others
+                        </label>
+                        <input type="text" name="others" size="12" maxlength="30" class="textbox">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="same">
+                        QUALIFICATION
+                    </td>
+                    <td>
+                        <table id="prac" cellspacing="1">
+                            <tr>
+                                <td>Sl.No.</td>
+                                <td>Examination</td>
+                                <td class="center">Board</td>
+                                <td class="center">Percentage</td>
+                                <td class="center">Year of Passing</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>Class X</td>
+                                <td><input type="text" name="a" class="h"></td>
+                                <td><input type="text" name="b" class="h"></td>
+                                <td><input type="text" name="c" class="h"></td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Class XII</td>
+                                <td><input type="text" name="d" class="h"></td>
+                                <td><input type="text" name="e" class="h"></td>
+                                <td><input type="text" name="f" class="h"></td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Graduation</td>
+                                <td><input type="text" name="g" class="h"></td>
+                                <td><input type="text" name="h" class="h"></td>
+                                <td><input type="text" name="i" class="h"></td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Masters</td>
+                                <td><input type="text" name="j" class="h"></td>
+                                <td><input type="text" name="k" class="h"></td>
+                                <td><input type="text" name="l" class="h"></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td class="center">(10 char max)</td>
+                                <td class="center">(upto 2 decimal)</td>
+                                <td></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        COURSES <br> APPLIED FOR
+                    </td>
+                    <td>
+                        <input type="radio" name="courses" id="bca" value="bca">
+                        <label for="bca">
+                            BCA
+                        </label>
+                        <input type="radio" name="courses" id="bcom" value="bcom">
+                        <label for="bcom">
+                            B.Com
+                        </label>
+                        <input type="radio" name="courses" id="bsc" value="bsc">
+                        <label for="bsc">
+                            B.Sc
+                        </label>
+                        <input type="radio" name="courses" id="ba" value="ba">
+                        <label for="ba">
+                            B.A
+                        </label>
+                    </td>
+                </tr>
+            </table>
+            <center>
+                <button formaction="thankyou.html" type="submit" class="round">Submit</button>
+                <button formaction="" class="round">Reset</button>
+            </center>
+        </fieldset>
+    </form>
+</body>
+
+</html>

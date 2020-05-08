@@ -1,0 +1,36 @@
+fieldset{
+    margin: 0.7cm;
+    padding-top: 0.4cm;
+    font-family: Helvetica;
+    background-color: rgb(107, 90, 205);
+    color: white;
+}
+fieldset > table{
+    border-spacing: 0 14px;
+}
+.same{
+    display: inline-table;
+}
+#format{
+    padding-right: 2.5cm;
+}
+u{
+    font-family: Helvetica;
+    color: rgb(107, 90, 205);
+}
+.textbox{
+    font-size: 0.5cm;
+}
+textarea{
+    width: 9.5cm;
+    height: 2cm;
+}
+.center{
+    text-align: center;
+}
+.round{
+    border-radius: 5px;
+}
+.h{
+    height: 0.5cm;
+}
